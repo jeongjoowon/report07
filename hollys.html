@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hollys</title>
+  <style>
+    *{
+      /* box-sizing:border-box; */
+      margin:0;
+      padding:0;
+    }
+    ul,ol,li{
+      list-style:none;
+    }
+    a{
+      text-decoration:none;
+      color:#000000;
+    }
+    div{
+      display:block;
+    }
+    header{
+      width:100%;
+      height:44px;
+      background: #b5121b;
+      z-index: 300;
+      display:block;
+      position: relative;
+    }
+    .floating{
+      position:fixed;
+      left:10px;
+      top:10px;
+      width:70px;
+      height:25px;
+      border-radius:13px;
+      background-color:rgb(190, 166, 115);
+      line-height:22px;
+      text-align: center;
+      z-index: 310;
+    }
+    .floating a{
+      color:#fff;
+      border-radius: 25px;
+      font-size:11px;
+      display: inline-block;
+    }
+    .row .logo{
+      padding: 11px 0 0 0;
+      line-height:10px;
+      text-align:center;
+    }
+    .logo img{
+      width:90px;
+    }
+    .btn-nav img{
+      position:absolute;
+      top:0;
+      right:0;
+      width:39px;
+      height:44px;
+    }
+    .main-banner{
+      position: relative;
+      margin: 0 0 16px 0;
+      min-width: 320px;
+    }
+    .main-banner img{
+      width:100%;
+      height:100%;
+    }
+    header .nav{
+      position:absolute;
+      bottom:12px;
+      left:0;
+      text-align:center;
+    }
+    .nav{
+      right:0;
+    }  
+    header .nav a{
+      display:inline-flex;
+      height:7px;
+      width:7px;
+      padding-right:2px;
+    }
+  </style>
+</head>
+<body>
+  <section class="wrap">
+    <header class="header">
+      <div class="floating">
+        <a href="#">가맹문의</a>
+      </div>
+      <div class="row">
+        <div class="logo">
+          <a href="#"><img src="./image/logo.png" alt="로고"></a>
+        </div>
+        <div class="btn-nav">
+          <a href="#"><img src="./image/btn_menu.gif" alt="버튼네비"></a>
+        </div>
+      </div>
+    </header>
+    <div class="main-banner">
+      <a href="#"><img src="./image/main-banner.jpg" alt="메인배너"></a>
+    </div>
+    <section class="icons">
+        <div class="icon">
+          <a href="#"><img src="./image/icon01.gif" alt="아이콘1"></a>
+          <a href="#">Hollys Mall</a>
+        </div>
+        <div class="icon">
+          <a href="#"><img src="./image/icon02.gif" alt="아이콘2"></a>
+          <a href="#">Menu</a>
+        </div>
+        <div class="icon">
+          <a href="#"><img src="./image/icon03.gif" alt="아이콘3"></a>
+          <a href="#">store</a>
+        </div>
+        <div class="icon">
+          <a href="#"><img src="./image/icon04.gif" alt="아이콘4"></a>
+          <a href="#">membership</a>
+        </div>
+      </div>
+    </section>
+    <section class="banners">
+      <div class="column">
+        <a href="#"><img src="./image/banner01.jpg" alt="배너1"></a>
+      </div>
+      <div class="column">
+        <a href="#"><img src="./image/banner02.jpg" alt="배너2"></a>
+      </div>
+      <div class="column">
+        <a href="#"><img src="./image/banner03.png" alt="배너3"></a>
+      </div>
+      <div class="column">
+        <a href="#"><img src="./image/banner04.jpg" alt="배너4"></a>
+      </div>
+      <div class="column">
+        <a href="#"><img src="./image/banner05.jpg" alt="배너5"></a>
+      </div>
+    </section>
+    </div>
+      </div>
+  </section>
+</body>
+</html>
